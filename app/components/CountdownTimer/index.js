@@ -45,7 +45,7 @@ const CountdownTimer = ({ dropDate }) => {
       <p className="timer-header">Drop disponivel em :</p>
       {timerString && <p className="timer-value">{`⏰ ${timerString}`}</p>}
     </div>
-  );
+    );
 };
 
 export default CountdownTimer;
